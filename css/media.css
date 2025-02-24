@@ -1,0 +1,283 @@
+
+
+
+ /* X-Small devices  */
+@media (max-width: 575.98px) {
+     /* Header Part Start */
+     .nav-link {
+        text-align: center;
+        color: #ffffff;
+    }
+    .navbar-nav {
+        background: red;
+        border-radius: 10px;
+    }
+        .searchBtn {
+            text-align: center;
+            padding: 10px 0;
+        }
+        .commonBtn {
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        /* Header Part End */
+
+        /* .Banner Part Start */
+        .bannerText {
+            padding: 90px 0;
+        }
+
+        .bannerText h1 {
+            font-size: 31px;
+            padding: 20px 139px 20px 0;
+        }
+        .bannerText p {
+            padding-right: 261px;
+            line-height: 140%;
+            font-size: 16px;
+        }
+        .real {
+            top: 0px;
+            width: 100px;
+        }
+
+         /* .Banner Part End */
+
+
+        /* Build Part Start */
+        .buildText h6 {
+            text-align: left;
+        }
+        .buildText h3 {
+            font-size: 31px;
+            padding-right: 130px;
+            text-align: left;
+        }
+        .buildFlex {
+            margin: 20px 38px 20px 38px;
+          
+        }
+        .beutifulText p {
+            font-size: 15px;
+            padding-top: 10px;
+        }
+        .beutifulVideo {
+            left: 67%;
+            
+        }
+        /* Build Part End */
+
+
+        /* Focus Part start */
+
+        #focusPart {
+            padding: 50px 0;
+        }
+        .focusImages img {
+            margin-left: 180px;
+        }
+        .focusText a {
+            padding-left: 220px;
+        }
+
+        /* Focus Part End */
+
+        /* Dream Part Start */
+        .dreamOvertext h3 {
+            font-size: 34px;
+            padding-right: 73px;
+        }
+        .dreamIcon {
+            margin-top: 9px;
+            padding: 10px 20px;
+            margin-right: 470px;
+        }
+        .dreamFlex {
+            width: 520px;
+            top: 365px;
+            left: 39px;
+        }
+        .dreamImages img {
+            height: 340px;
+        }
+        .dreamProject {
+            padding: 10px 30px;
+        }
+        .dreamProject h5 {
+            font-weight: 600;
+            padding-bottom: 25px;
+        }
+        .dreamProject p {
+            font-size: 14px;
+            line-height: 197%;
+            padding-bottom: 9px;
+        }
+        #apartmentPart {
+            padding-top: 720px;
+        }
+        .apartmentItem {
+            width: 105px;
+        }
+        .apartmentItem h4 {
+            font-size: 14px;
+            font-weight: 600;
+           
+        }
+
+/* Hous Part Start */
+        #housePart {
+            padding-top: 30px;
+            height: 340px;
+        }
+        .houseImeag img {
+            height: 130px;
+        }
+
+        .houseIcon {
+            margin-top: 174px;
+            width: 8px;
+            padding-right: 35px;
+        }
+        .houseIcon i {
+            display: none;
+        }
+        .houseFlex {
+            justify-content: space-between;
+            width: 100%;
+           
+        }
+        .houseItem {
+            background: #ffffff;
+        }
+        .houseText h4 {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 110%;
+        }
+        .houseText a {
+            font-size: 12px;
+        }
+/* Hous Part End */
+
+/* Aminities Part Start*/
+
+
+.aminitiesText {
+    margin: auto;
+}
+
+/* Aminities Part End */
+
+/* Avilabe Part Start */
+
+        #availablePart {
+            padding-top: 150px;
+        }
+
+
+        /* Avilabe Part End */
+        
+    /* Dream Part End */
+
+    /* About Us Part Start */
+    #dreamPart {
+        height: 460px;
+    }
+    .dreamOverly {
+        padding-bottom: 200px;
+    }
+    .aboutCard {
+        width: 260px;
+        left: 20px;
+        top: 398px;
+    }
+    .aboutText h3 {
+        font-size: 18px;
+        padding: 15px 0px 15px 15px;
+    }
+    .aboutText p {
+        font-size: 14px;
+    }
+    .aboutPera p {
+        font-size: 11px;
+        padding-right: 0px;
+    }
+    .aboutCards {
+        width: 260px;
+        left: 298px;
+        top: 398px;
+    }
+    /* About Us Part End*/
+
+    /* News Part Start */
+    .newsImage {
+        padding-bottom: 260px;
+    }
+    .newsFlexsexs {
+        top: 921px;
+        left: 36px;
+        width: 505px;
+    }
+
+    .newsImgs {
+        padding-bottom: 250px;
+    }
+    .newsImgs img {
+        height: 200px;
+    }
+    .newsFlexs {
+        top: 1390px;
+        left: 20px;
+        width: 538px;
+    }
+    .newsFlexse {
+        top: 1825px;
+        left: 23px;
+        width: 530px;
+    }
+    .newsFlexsex {
+        top: 2274px;
+        left: 20px;
+        width: 535px;
+    }
+    .footerPosition {
+        width: 449px;
+        left: 62px;
+    }
+/* News Part End */
+/* Footer Part Start */
+
+.footerTexts h3 {
+    font-size: 29px;
+}
+.footerTexts p {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.footerBtn h4 {
+    text-align: center;
+}
+/* Footer Part End */
+
+ }
+
+
+/* Small devices  */
+@media (max-width: 767.98px) { }
+
+
+
+ /* Medium devices */
+@media (max-width: 991.98px) { }
+
+
+ /* Large devices  */
+@media (max-width: 1199.98px) { }
+
+
+ /* X-Large devices  */
+@media (max-width: 1399.98px) { 
+
+
+}

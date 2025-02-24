@@ -1,0 +1,951 @@
+/* All Common Css File Start */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+ol.ul{
+    list-style-type: none;
+}
+/* All Common Css File End */
+
+
+/* Header Part Start */
+
+.navbar{
+    background-color: #ffffff;
+} 
+.nav-item{
+    padding-right: 40px;
+}
+.nav-link{
+    font-size: 18px;
+    font-weight: 700;
+    color: #143445;
+    font-family: "Nunito", serif;
+}
+.home{
+    color: #FF5A3C;
+    border-bottom: 2px solid #FF5A3C ;
+}
+.searchBtn a{
+    padding: 0 25px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #143445;
+}
+.commonBtn a{
+    padding: 15px 30px;
+    background-color: #FF5A3C;
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff;
+    border-radius: 5px; 
+}
+/* Header Part End */
+
+/* Banner Part Start */
+
+#bannerPart{
+    background: url(../images/slider.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.bannerText{
+    padding: 150px 0;
+}
+
+.bannerText h6{
+    font-size: 16px;
+    font-weight: 700;
+    color: #15254A;
+    font-family: "Nunito", serif;
+}
+.bannerText h1{
+    font-size: 65px;
+    font-weight: 700;
+    color: #000000;
+    font-family: "Poppins", serif;
+    line-height: 120%;
+    padding: 23px 0;
+}
+.bannerText h1 span{
+    color: #FF5A3C;
+}
+.bannerText p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #2C3B5E;
+    font-family: "Nunito", serif;
+    padding-bottom: 50px;
+}
+.real {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 250px;
+}
+
+/* Banner Part End */
+
+/* Build Part Start */
+
+#buildPart{
+    padding: 115px 0;
+}
+
+.buildImages img{
+    width: 100%;
+}
+
+.buildText h6{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FF5A3C;
+    font-family: "Nunito", serif;
+    padding-top: 40px;
+}
+.buildText h3{
+    font-size: 48px;
+    font-weight: 700;
+    color: #0A2C3D;
+    font-family: "Poppins", serif;
+    line-height: 140%;
+    padding: 15px 0;
+}
+.buildText p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #2C3B5E;
+    font-family: "Nunito", serif; 
+    line-height: 140%;
+    padding-right: 201px;
+}
+.buildFlex{
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+margin: 20px 70px 20px 5px;
+padding: 20px;
+transition: 2s;
+}
+.buildPera h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0A2C3D;
+    font-family: "Poppins", serif; 
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.buildPera p{
+    font-size: 17px;
+    font-weight: 400;
+    color: #5C727D;
+    font-family: "Nunito", serif;
+    line-height: 140%; 
+    padding-top: 10px;
+    padding-right: 60px;
+    padding-left: 10px;
+}
+.buildFlex:hover{
+    background: #FF5A3C;
+}
+.buildFlex:hover p{
+    color: #ffffff;
+}
+.buildFlex:hover h3{
+    color: #ffffff;
+}
+
+/* build Part End */
+
+/* Beutiful Part Start */
+
+#beutifulPart{
+    background: url(../images/overlay.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.beutifulCearcal{
+    /* width: 40px;
+    height: 40px; */
+    padding: 10px;
+    background: #fb525230;
+   border-radius: 50%;
+   margin-right: 10px;
+}
+.beutifulCearcal i{
+    font-size: 22px;
+    color: #FB5252;
+}
+
+.beutifulText{
+    display: flex;
+}
+.beutifulText p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #0A2C3D;
+    font-family: "Nunito", serif;
+    line-height: 130%; 
+    padding-right: 10px; 
+}
+.beutifulVideo{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background: #FF5A3C;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.beutifulVideo i{
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-left: 24px;
+    
+}
+/* Beutiful Part End */
+
+/* Focus Part Start */
+
+#focusPart{
+    padding: 120px 0;
+}
+.focusCrad{
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+padding-top: 20px;
+padding-bottom: 50px;
+margin-top: 50px;
+transition: 1s;
+}
+.focusCrad:hover{
+    border-bottom: 7px solid #FF5A3C;
+}
+.focusImages img{
+   margin-left: 120px;
+}
+.focusText h4{
+    font-size: 28px;
+    font-weight: 700;
+    color: #000000;
+    font-family: "Poppins", serif;
+    text-align: center;
+}
+.focusText p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #5C727D;
+    font-family: "Nunito", serif;
+    text-align: center;
+    padding: 20px 55px;
+    line-height: 150%;
+}
+.focusText a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FF5A3C;
+    font-family: "Nunito", serif;
+    padding-left: 135px;
+    
+}
+/* Focus Part End */
+
+
+/* Dream Part Start */
+#dreamPart{
+    background: url(../images/starnder\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+.dreamOverly{
+    background: rgba(0, 0, 0, 0.6);
+    padding-top: 70px;
+    padding-bottom: 230px;
+}
+.dreamOvertext h6{
+    font-size: 18;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: "Nunito", serif;
+    padding: 20px 0;
+}
+.dreamOvertext h3{
+    font-size: 48px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: "Poppins", serif;
+    line-height: 150%;
+   padding-right: 401px;
+}
+.dreamIcon{
+    margin-top: 80px;
+    padding: 15px 25px;
+    background: #ffffff;
+    transition: 1s;
+}
+.dreamIcon:hover{
+    background: #FF5A3C;
+    color: #ffffff;
+}
+.dreamIcon i{
+    padding-left: 10px;
+    font-size: 25px;
+}
+.dreamFlex{
+    width: 1320px;
+    padding: 20px 10px;
+    background: #ffffff;
+    position: absolute;
+    top: 300px;
+    left: 140px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.dreamImages img{
+    width: 100%;
+    height: 575px;
+}
+.dreamText{
+    background: #F3F4F7;
+    
+}
+.dreamProject{
+    padding: 47px 30px;
+}
+.drimPd{
+    padding-left: 30px;
+}
+.dreamProject h5{
+    font-size: 16px;
+    font-weight: 700;
+    color: #0A2C3D;
+    padding-bottom: 48px;
+    font-family: "Poppins", serif;
+}
+.dreamProject p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #0A2C3D;
+    line-height: 300%;
+    font-family: "Nunito", serif;
+    text-align: right;
+}
+
+.projectFlex{
+    display: flex;
+    justify-content: space-between;
+}
+/* Dream Part End */
+
+/* Apartment Part Start */
+
+#apartmentPart{
+    padding-top: 450px;
+    padding-bottom: 115px;
+}
+
+.itemFlex{
+    justify-content: center;
+}
+.apartmentItem{
+    width: 165px;
+    padding: 20px 0;
+}
+.apartmentItem h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0A2C3D;
+    font-family: "Nunito", serif; 
+    text-align: center;
+}
+.apartmentItem h4:hover{
+    color: #FF5A3C;
+}
+
+.apartmantText{
+    background: #F3F4F7;
+    padding: 100px 25px;
+    margin-top: 70px;
+}
+
+.apartmentDelext h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+    font-family: "Poppins", serif;
+    padding: 0 50px;
+}
+.apartmentDelext p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #5C727D;
+    font-family: "Nunito", serif; 
+    line-height: 150%;
+    padding: 20px 50px;
+}
+.apartmantFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.apartmentHead h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    font-family: "Poppins", serif;  
+    padding: 20px 0 20px 50px;
+}
+.apartmentHead p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #5C727D;
+    font-family: "Nunito", serif; 
+    padding: 20px 50px 20px 0;
+}
+.apartmentImage img{
+    width: 100%;
+    padding-top: 70px;
+}
+/* Apartment Part End */
+
+/* house Part Start */
+
+#housePart{
+    background: #F3F4F7;
+    padding-top: 100px;
+   height: 500px;
+}
+.houseFlex{
+    justify-content: space-around;
+}
+.houseItem{
+    width: 28%;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    padding: 10px 10px;
+}
+.houseImeag img{
+    width: 100%;
+    height: 300px;
+}
+.houseText p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #5C727D;
+    font-family: "Nunito", serif;
+    padding-top: 20px;
+}
+.houseText h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #0F1B43;
+    font-family: "Poppins", serif;  
+   padding: 15px 0;
+}
+.houseText a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FF5A3C;
+    font-family: "Nunito", serif;
+}
+
+.houseIcon{
+    margin-top: 130px;
+    /* /* height: 70px; */
+    width: 70px;
+    /* background: #ffffff;  */
+}
+.houseIcon i{
+   padding: 20px 20px;
+    font-size: 25px;
+    margin-top: 20px;
+    /* margin-left: 20px; */
+    color: #FF5A3C;
+    background: #ffffff;
+}
+.houseIcon i:hover{
+    color: #ffffff;
+    background: #FF5A3C;
+}
+.houseIcon:hover{
+    
+}
+/* house Part End */
+
+/* Available Part Start */
+
+#availablePart{
+    padding-top: 350px;
+    padding-bottom: 100px;
+}
+
+.availabilityText h6{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0A2C3D;
+    padding: 20px 0;
+    border-bottom: 2px solid #93A4C1;
+}
+
+.tableName p{
+    font-size: 16px;
+    font-weight: 700;
+    color: #5C727D;
+    font-family: "Nunito", serif;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.tableColor{
+    background: #F1F1F3;
+}
+/* Available Part End */
+
+/* Neighbour Part Start */
+
+#NeighbourPart{
+    padding: 120px 0;
+    background: #F3F4F7;
+}
+.neighbourImages img{
+    width: 100%;
+    height: 600px;
+}
+
+.neighbourCard{
+    background: #ffffff;
+    padding: 20px;
+}
+.neighbourCard img{
+    width: 100%;
+    
+}
+.neighbourCard h3{
+    font-size: 25px;
+    font-weight: 700;
+    color: #0A2C3D;
+    font-family: "Poppins", serif;
+    padding: 20px 0;
+}
+.neighbourCard p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #5C727D;
+    font-family: "Nunito", serif;
+    line-height: 200%;
+    padding-bottom: 30px;
+}
+.neighbourCard p span{
+    color: #FF5A3C;
+}
+.neighbourCard a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FF5A3C;
+    font-family: "Nunito", serif; 
+    padding-bottom: 50px;
+}
+.neighbourFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.neighbourIcon{
+    display: flex;
+}
+
+.neighbourIcon i{
+    background: #FF5A3C;
+    padding: 10px;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+
+.neighbourText{
+    
+    padding: 8px 0;
+}
+.neighbourIcon h4{
+    font-size: 18px;
+    font-weight: 700;
+    color: #0A2C3D;
+    font-family: "Poppins", serif;
+    position: relative;
+    padding: 10px ;
+}
+.neighbourIcon h4:hover{
+    color: #FF5A3C;
+   
+}
+.neighbourIcon h4::after{
+    width: 350px;
+    left: 10px;
+    bottom: 0;
+    position: absolute;
+    content: "";
+    background: #D5D9E5;
+    height: 2px;
+}
+.neighbourIcon:hover h4::after{
+    background: #FB8209;
+}
+.neighbourText p{
+    font-size: 22px;
+    font-weight: 700;
+    color: #15154A;
+    padding-top: 5px;
+   padding-right: 10px;
+}
+
+/* Neighbour Part End */
+
+
+/* Aminities Part Start */
+
+#aminitiesPart{
+    padding: 100px 0;
+}
+
+.aminitiesText{
+    padding: 10px;
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+border-radius: 10px;
+transition: 2s;
+width: 300px;
+}
+.aminitiesText:hover{
+    background: #FF5A3C;
+   
+}
+
+.aminitiesText a{
+    margin-left: 210px;
+    color: #FF5A3C;
+    padding: 13px;
+    background: #ffffff;
+   border-radius: 10px;
+}
+
+.aminitiesText h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: #FF5A3C;
+    font-family: "Poppins", serif;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.aminitiesText:hover h4 {
+    color: #ffffff;
+    
+}
+.aminitiesText h3{
+    font-size: 22px;
+    font-weight: 700;
+    color: #0A2C3D;
+    font-family: "Poppins", serif;
+   padding-top: 15px;
+   padding-left: 20px;
+}
+.aminitiesText:hover h3{
+    color: #ffffff;
+    
+}
+.aminitiesText p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #5C727D;
+    font-family: "Nunito", serif;
+    line-height: 150%;
+    padding: 30px 20px;
+}
+.aminitiesText:hover p{
+    color: #ffffff;  
+}
+/* Aminities Part End */
+
+
+/* About Us Part Start */
+
+
+
+.aboutCard{
+    padding: 20px;
+    width: 600px;
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+position: absolute;
+top: 370px;
+left: 150px;
+background: #ffffff;
+}
+
+.aboutImage img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.aboutText h3{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Poppins", serif;
+    color: #051441;
+    padding: 15px;
+}
+.aboutText p{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Nunito", serif;
+    color: #677294;
+    padding-left: 15px;
+}
+.aboutIcon{
+    font-size: 15px;
+    font-weight: 400;
+    color: #FB8209;
+    text-align: right;
+    padding-top: 15px;
+}
+.aboutPera p{
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Nunito", serif;
+    color: #677294;
+    line-height: 170%;
+    padding: 20px 0;
+    padding-right: 72px;
+
+}
+.aboutCards{
+    padding: 20px;
+    width: 600px;
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+position: absolute;
+top: 370px;
+left: 800px;
+background: #ffffff;
+}
+/* About Us Part End */
+
+
+/* News Part Start */
+
+#newsPaer{
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+
+
+.newsImage img{
+    width: 100%;
+}
+#newsPaer{
+    position: relative;
+}
+.newsImgs img{
+    width: 100%;
+    height: 200px;
+    padding-bottom: 10px;
+    
+}
+
+
+.newsFlexs{
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+padding: 15px;
+position: absolute;
+top: 475px;
+left: 930px;
+background: #ffffff;
+width: 450px;
+}
+.newsFlexse{
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+    padding: 15px;
+    position: absolute;
+    top: 670px;
+    left: 930px;
+    background: #ffffff;
+    width: 450px;
+}
+.newsFlexsex{
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+    padding: 15px;
+    position: absolute;
+    top: 870px;
+    left: 930px;
+    background: #ffffff;
+    width: 450px;
+}
+.newsFlexsexs{
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+    padding: 15px;
+    position: absolute;
+    top: 870px;
+    left: 185px;
+    background: #ffffff;
+    width: 450px;
+}
+.newsIcon{
+    font-size: 16px;
+    color: #FB8209;
+}
+.newsDate p{
+    font-size: 14px;
+    font-weight: 700;
+    color: #647589;
+    font-family: "Nunito", serif;
+    padding-top: 10px;
+}
+.newsAnkor h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0A2C3D;
+    font-family: "Poppins", serif;
+    line-height: 150%;
+    padding: 5px 0;
+    padding-right: 100px;
+   
+}
+.newsAnkor a{
+    font-size: 17px;
+    font-weight: 400;
+    color: #FF5A3C;
+    font-family: "Nunito", serif;
+}
+/* News Part End */
+
+
+/* footer Part Start */
+
+#footerPart{
+    background: #000000;
+    padding-top: 220px;
+    padding-bottom: 120px;
+    position: relative;
+}
+.footerText h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: "Poppins", serif;
+    line-height: 250%;
+    
+}
+.footerText p{
+    font-size: 17px;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: "Nunito", serif;
+    line-height: 250%;
+    padding-right: 20px;
+}
+.footerIcon{
+    padding-top: 50px;
+}
+.footerIcon a{
+    font-size: 20px;
+    color: #6A7695;
+    padding: 10px 20px;
+    background: #ffffff;
+    border-radius: 40px;
+   margin-right: 15px;
+   transition: 2s; 
+}
+.footerIcon a:hover{
+    background: #FB8209;
+    color: #ffffff;
+}
+
+.footerInput input{
+    width: 300px;
+   height: 45px;
+   outline: none;
+   padding-left: 10px;
+   font-size: 16px;
+   position: relative;
+   
+}
+.footerInput a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: "Nunito", serif;
+    background: #FF5A3C;
+    padding: 10px 20px;
+    border-radius: 5px;
+   position: absolute;
+   right: 256px;
+
+}
+
+.footerPosition{
+    background: #FB8209;
+    width: 1200px;
+    padding: 50px 20px;
+    position: absolute;
+    top: -60px;
+    left: 170px;
+}
+.footerTexts h3{
+    font-size: 36px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: "Poppins", serif;
+}
+.footerTexts p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: "Nunito", serif;
+    padding-top: 20px;
+}
+.footerBtn{
+    padding: 15px 30px;
+    background: #ffffff;
+    margin-right: 30px;
+}
+.footerBtn h4{
+    font-size: 18px;
+    font-weight: 400;
+    color: #FB5252;
+    font-family: "Nunito", serif; 
+}
+
+/* Footer Part End */
